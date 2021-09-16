@@ -71,8 +71,13 @@
     </nav>
     <hr />
     <h1>@header</h1>
-    <header>
-      <img src="images/header_image.svg" alt="" />
+    <header class="hero">
+      <img class="hero hero-img" src="images/header_image.svg" alt="" />
+
+      <h1 class="hero hero-heading">
+        Heading inside
+        <span class="hero hero-heading heading-inverted">hero</span>
+      </h1>
       <p>
         go to <a href="https://undraw.co">undraw.co</a> to and select the theme
       </p>
@@ -80,7 +85,6 @@
         go to <a href="https://tailwindcss.com">tailwindcss.com</a> they have a
         lot off colors select one and use it as a theme
       </p>
-      <h1>Heading inside hero</h1>
       <p>go to <a href="https://codepen.io">codepen.io</a> to play with css</p>
       <p>
         go to <a href="https://unsplash.com">unsplash.com</a> to use free images
@@ -88,30 +92,33 @@
     </header>
     <hr />
     <h1>@section</h1>
-    <section>
+    <section class="section">
       <p>
         Section is used to seperate parts of pages. In marketing the websites
         you would have seen a header followed by section of features, team,
         pricing, contafct info etc.
       </p>
-      <h3>@normal section</h3>
-      <section>
-        <h3>@white section</h3>
-        <p>This will have white background</p>
+      <section class="section">
+        <div class="container container-center">
+          <h1>@white section</h1>
+          <p>This will have white background</p>
+        </div>
       </section>
-      <section>
-        <h3>@off white section</h3>
-        <p>This will have gray background</p>
+      <section class="section ow">
+        <div class="container container-center">
+          <h1>@off white section</h1>
+          <p>This will have gray background</p>
+        </div>
       </section>
     </section>
     <hr />
     <h1>@footer</h1>
-    <footer>
-      <div>Some small heading inside the footer</div>
-      <ul>
-        <li>social one</li>
-        <li>social two</li>
-        <li>social three</li>
+    <footer class="footer">
+      <div class="footer-header">Some small heading inside the footer</div>
+      <ul class="footer social-links list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="/">social one</a></li>
+        <li class="list-item-inline"><a class="link" href="/">social two</a></li>
+        <li class="list-item-inline"><a class="link" href="/">social three</a></li>
       </ul>
       <p>You should go to mdn website often to explore html and css</p>
     </footer>
