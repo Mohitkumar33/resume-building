@@ -120,6 +120,10 @@ hr {
   text-align: center;
 }
 
+.section .projects h1 {
+  text-align: left;
+}
+
 .section .ow {
   background-color: var(--off-white);
 }
