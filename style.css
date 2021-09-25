@@ -95,7 +95,7 @@ hr {
 }
 
 .hero .blogs {
-  max-width: 50%;
+  max-width: 20%;
   display: block;
   margin: auto;
 }
@@ -127,6 +127,10 @@ hr {
 .section .ow {
   background-color: var(--off-white);
 }
+
+/* .section .blogs p {
+  background-color: rgb(121, 103, 33);
+} */
 
 /* footer */
 
