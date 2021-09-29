@@ -150,3 +150,8 @@ hr {
 .footer .link {
   color: white;
 }
+
+small {
+  font-size: smaller;
+  font-weight: lighter;
+}
