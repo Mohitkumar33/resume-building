@@ -114,6 +114,7 @@ hr {
 
 .section {
   padding: 2rem;
+  padding-top: 0rem;
 }
 
 .section h1 {
